@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: roboto,Arial;
+    font-size: 16px;
+    font-weight: 600;
+}
+body{
+    background-color: black;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+.main{
+    background-color: white;
+    border-radius: 5px;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding: 10px;
+}
+.add{
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px;
+    border: solid 1px;
+}
+.input{
+    flex: 1;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 16px;
+}
+.submit-button{
+    background-color: lime;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width: 70px;
+    height: 100%;
+    border: none;
+    margin-left: -1px;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+}
+.items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+    
+}
+.no-msg{
+    display: none;
+}
+.item{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    position: relative;
+    border-radius: 5px;
+}
+.done{
+    background-color: lightgreen;
+}
+.number{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: solid 1px blue;
+    text-decoration: none !important;
+}
+.note{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    padding-left: 10px;
+    height: 100%;
+}
+.delete{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-left: solid 1px blue;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    text-decoration: none !important;
+}
+
+

@@ -57,7 +57,7 @@ items.addEventListener('click', (e) => {
     }
 })
 
-delete note
+// delete note
 items.addEventListener('click', (e) => {
     if (e.target.className == 'delete') {
         if (confirm('Are You Sure To Delete This Note?')) {
